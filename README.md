@@ -1,3 +1,11 @@
+# Qwik
+
+Qwik is a framework for building web applications. Qwik is built on top of [Vite](https://vitejs.dev/), and is designed to be a lightweight framework that can be used with any framework or library.
+
+## Notes
+
+- [QwikReact allows you to use React components in Qwik](https://qwik.builder.io/integrations/react/), including the whole ecosystem of component libraries, such as Material UI, Threejs and React Spring.
+
 # Qwik City App ⚡️
 
 - [Qwik Docs](https://qwik.builder.io/)
