@@ -4,7 +4,22 @@ Qwik is a framework for building web applications. Qwik is built on top of [Vite
 
 ## Notes
 
+- [Tutorial](https://qwik.builder.io/tutorial/introduction/component/)
+- [Qwik / React](https://qwik.builder.io/docs/cheat/qwik-react/)
 - [QwikReact allows you to use React components in Qwik](https://qwik.builder.io/integrations/react/), including the whole ecosystem of component libraries, such as Material UI, Threejs and React Spring.
+- Functions are not serializable.
+
+```
+Did you mean to wrap it in `$()`?
+
+const handleClick$ = $(
+  () => void
+);
+
+# Check out https://qwik.builder.io/docs/advanced/dollar/ for more details.eslintqwik/valid-lexical-scope
+```
+
+- [Events](https://qwik.builder.io/docs/components/events/)
 
 # Qwik City App ⚡️
 
