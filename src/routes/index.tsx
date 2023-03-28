@@ -17,6 +17,16 @@ export default component$(() => {
       >
         State Management
       </Link>
+      <Link
+        href="/fetch-resource-on-state-change"
+        style={{
+          display: "block",
+          color: "blue",
+          textDecoration: "underline",
+        }}
+      >
+        Fetch Resource on State Change
+      </Link>
       <Button
         handleClick={$(() => {
           alert("Hello Qwik");
