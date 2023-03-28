@@ -23,7 +23,9 @@
   3. Allow percentage-based heights in the application
 */
 html,
-body {
+body,
+main,
+.page {
   height: 100%;
 }
 
