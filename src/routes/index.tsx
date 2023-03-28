@@ -47,6 +47,16 @@ export default component$(() => {
       >
         Listening to Document and Window
       </Link>
+      <Link
+        href="/prevent-default"
+        style={{
+          display: "block",
+          color: "blue",
+          textDecoration: "underline",
+        }}
+      >
+        Prevent Default
+      </Link>
       <Button
         handleClick={$(() => {
           alert("Hello Qwik");
