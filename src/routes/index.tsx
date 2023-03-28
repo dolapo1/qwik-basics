@@ -37,6 +37,16 @@ export default component$(() => {
       >
         Lit Components
       </Link>
+      <Link
+        href="/listening-document-window"
+        style={{
+          display: "block",
+          color: "blue",
+          textDecoration: "underline",
+        }}
+      >
+        Listening to Document and Window
+      </Link>
       <Button
         handleClick={$(() => {
           alert("Hello Qwik");
