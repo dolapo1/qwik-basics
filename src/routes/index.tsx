@@ -27,6 +27,16 @@ export default component$(() => {
       >
         Fetch Resource on State Change
       </Link>
+      <Link
+        href="/lit-components"
+        style={{
+          display: "block",
+          color: "blue",
+          textDecoration: "underline",
+        }}
+      >
+        Lit Components
+      </Link>
       <Button
         handleClick={$(() => {
           alert("Hello Qwik");
