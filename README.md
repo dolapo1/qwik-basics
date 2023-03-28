@@ -8,6 +8,7 @@ Qwik is a framework for building web applications. Qwik is built on top of [Vite
 - [Qwik / React](https://qwik.builder.io/docs/cheat/qwik-react/)
 - [QwikReact allows you to use React components in Qwik](https://qwik.builder.io/integrations/react/), including the whole ecosystem of component libraries, such as Material UI, Threejs and React Spring.
 - Functions are not serializable.
+- [Cloudflare Workers and micro-frontends: made for one another](https://blog.cloudflare.com/better-micro-frontends/)
 
 ```
 Did you mean to wrap it in `$()`?
