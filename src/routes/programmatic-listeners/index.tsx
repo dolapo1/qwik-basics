@@ -10,5 +10,5 @@ export default component$(() => {
     $(() => alert("Hello World!"))
   );
 
-  return <div>Hello Qwik!</div>;
+  return <div>Click me!</div>;
 });

@@ -77,6 +77,17 @@ export default component$(() => {
       >
         Programmatic Listeners
       </Link>
+      <Link
+        href="/recursive-store"
+        style={{
+          display: "block",
+          color: "blue",
+          textDecoration: "underline",
+        }}
+      >
+        Recursive Store
+      </Link>
+
       <Button
         handleClick={$(() => {
           alert("Hello Qwik");
