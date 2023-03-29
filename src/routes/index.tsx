@@ -97,6 +97,16 @@ export default component$(() => {
       >
         Non-Serializable Properties
       </Link>
+      <Link
+        href="/passing-data-to-components"
+        style={{
+          display: "block",
+          color: "blue",
+          textDecoration: "underline",
+        }}
+      >
+        Passing Data to Components
+      </Link>
 
       <Button
         handleClick={$(() => {
