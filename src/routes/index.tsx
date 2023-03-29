@@ -57,6 +57,16 @@ export default component$(() => {
       >
         Prevent Default
       </Link>
+      <Link
+        href="/synchronous-event"
+        style={{
+          display: "block",
+          color: "blue",
+          textDecoration: "underline",
+        }}
+      >
+        Synchronous Event
+      </Link>
       <Button
         handleClick={$(() => {
           alert("Hello Qwik");
