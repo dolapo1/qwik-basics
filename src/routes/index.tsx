@@ -107,6 +107,16 @@ export default component$(() => {
       >
         Passing Data to Components
       </Link>
+      <Link
+        href="/passing-stores"
+        style={{
+          display: "block",
+          color: "blue",
+          textDecoration: "underline",
+        }}
+      >
+        Passing Stores
+      </Link>
 
       <Button
         handleClick={$(() => {
