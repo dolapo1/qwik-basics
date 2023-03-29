@@ -87,6 +87,16 @@ export default component$(() => {
       >
         Recursive Store
       </Link>
+      <Link
+        href="/non-serializable-properties"
+        style={{
+          display: "block",
+          color: "blue",
+          textDecoration: "underline",
+        }}
+      >
+        Non-Serializable Properties
+      </Link>
 
       <Button
         handleClick={$(() => {
