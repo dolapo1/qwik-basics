@@ -67,6 +67,16 @@ export default component$(() => {
       >
         Synchronous Event
       </Link>
+      <Link
+        href="/programmatic-listeners"
+        style={{
+          display: "block",
+          color: "blue",
+          textDecoration: "underline",
+        }}
+      >
+        Programmatic Listeners
+      </Link>
       <Button
         handleClick={$(() => {
           alert("Hello Qwik");
