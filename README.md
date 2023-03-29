@@ -2,6 +2,14 @@
 
 Qwik is a framework for building web applications. Qwik is built on top of [Vite](https://vitejs.dev/), and is designed to be a lightweight framework that can be used with any framework or library.
 
+## Todo
+
+- [ ] [Authentication](https://github.com/wmalarski/qwik-authjs-example)
+- [ ] Recursive components
+- [ ] Inversion Control (DI)
+- [ ] Form Validation
+- [ ] Charts using some react charting library
+
 ## Notes
 
 - [Tutorial](https://qwik.builder.io/tutorial/introduction/component/)
