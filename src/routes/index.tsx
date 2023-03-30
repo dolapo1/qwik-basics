@@ -128,6 +128,17 @@ export default component$(() => {
         Passing Closures
       </Link>
 
+      <Link
+        href="/implicit-template-updates"
+        style={{
+          display: "block",
+          color: "blue",
+          textDecoration: "underline",
+        }}
+      >
+        Implicit Template Updates
+      </Link>
+
       <Button
         handleClick={$(() => {
           alert("Hello Qwik");
