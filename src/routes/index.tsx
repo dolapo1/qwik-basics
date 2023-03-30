@@ -138,6 +138,16 @@ export default component$(() => {
       >
         Implicit Template Updates
       </Link>
+      <Link
+        href="/explicit-reactivity"
+        style={{
+          display: "block",
+          color: "blue",
+          textDecoration: "underline",
+        }}
+      >
+        Explicit Reactivity
+      </Link>
 
       <Button
         handleClick={$(() => {
