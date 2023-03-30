@@ -117,6 +117,16 @@ export default component$(() => {
       >
         Passing Stores
       </Link>
+      <Link
+        href="/passing-closures"
+        style={{
+          display: "block",
+          color: "blue",
+          textDecoration: "underline",
+        }}
+      >
+        Passing Closures
+      </Link>
 
       <Button
         handleClick={$(() => {
