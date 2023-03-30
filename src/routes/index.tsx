@@ -148,6 +148,16 @@ export default component$(() => {
       >
         Explicit Reactivity
       </Link>
+      <Link
+        href="/fetch-and-display-data"
+        style={{
+          display: "block",
+          color: "blue",
+          textDecoration: "underline",
+        }}
+      >
+        Fetch and Display Data
+      </Link>
 
       <Button
         handleClick={$(() => {
